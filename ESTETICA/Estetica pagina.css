@@ -1,0 +1,747 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    .footer {
+        position:absolute;
+        top: 4200px;
+        left: 0px;
+        background-color: #ddecf8;
+        text-align: center;
+        color: white;
+        width: 1350px; 
+        height: 300px;
+    }
+
+.TituloVac{
+    text-align: left;
+    position:absolute;
+    color: #444cb8;
+    font-weight:900;
+    top: 50px;
+    left: 100px;
+    }
+
+.botonDB {
+    position:absolute;
+    text-align: justify;
+    font-weight:900;
+    top: 100px;
+    left: 500px;
+    border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #ffffff; /*color botón*/
+    color: #575555f6; /*color texto*/
+    /*text-transform: uppercase; /*capitalización texto*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+.botonEd {
+        position:absolute;
+        text-align: justify;
+        font-weight:900;
+        top: 100px;
+        left: 630px;
+        border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+        padding: 10px; /*espacio alrededor texto*/
+        background-color: #ffffff; /*color botón*/
+        color: #575555f6; /*color texto*/
+        /*text-transform: uppercase; /*capitalización texto*/
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+.botonNew {
+            position:absolute;
+            text-align: justify;
+            font-weight:900;
+            top: 100px;
+            left: 765px;
+            border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+            padding: 10px; /*espacio alrededor texto*/
+            background-color: #ffffff; /*color botón*/
+            color: #575555f6; /*color texto*/
+            /*text-transform: uppercase; /*capitalización texto*/
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+.botonReg {
+            position:absolute;
+            text-align: justify;
+            font-weight:900;
+            top: 100px;
+            left: 855px;
+            border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+            padding: 10px; /*espacio alrededor texto*/
+            background-color: #ffffff; /*color botón*/
+            color: #575555f6; /*color texto*/
+            /*text-transform: uppercase; /*capitalización texto*/
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+.botonAz {
+            position:absolute;
+            text-align: justify;
+            font-weight:700;
+            font-size: 110%;
+            top: 90px;
+            left: 1050px;
+            /*border: 0px rgb(2, 77, 238)#ffffff; /*anchura, estilo y color borde*/
+            padding: 20px; /*espacio alrededor texto*/
+            background-color: #303deb; /*color botón*/
+            color: #fffffff6; /*color texto*/
+            border-radius: 5px; /*bordes redondos*/
+            /*text-transform: uppercase; /*capitalización texto*/
+            font-family: Arial;
+             }
+
+.Subtitle1 {
+        position:absolute;
+        text-align:left;
+        font-weight:850;
+        font-size: 350%;
+        top: 250px;
+        left: 100px;
+        color: #191f75; /*color texto*/
+        font-family:Arial, Helvetica, sans-serif;
+        }
+
+.Parraf1 {
+        position:absolute;
+        text-align:left;
+        font-weight:150;
+        font-size: 130%;
+        top: 500px;
+        left: 100px;
+        color: #58585c; /*color texto*/
+        font-family: 'Trebuchet MS', sans-serif;
+        }
+
+.Boton2BP {
+            size-adjust: .9;
+            position:absolute;
+            top: 635px;
+            left:130px;
+            border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+            color: #191f75; /*color texto*/
+            font-family:  Helvetica;
+            font-weight:bolder;
+            font-size: medium;
+        }
+.Boton2SV {
+            size-adjust: .9;
+            position:absolute;
+            top: 635px;
+            left:310px;
+            border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+            color: #191f75; /*color texto*/
+            font-family:  Helvetica;
+            font-weight:bolder;
+            font-size: medium;
+        }
+
+.Subtitle2 {
+            size-adjust: .9;
+            position:absolute;
+            top: 745px;
+            left: 130px;
+            border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+            color: #191f75; /*color texto*/
+            font-family:  Helvetica;
+            font-weight:bolder;
+            font-size:130%
+        }
+
+.Location{
+            size-adjust: .9;
+            position:absolute;
+            top: 905px;
+            left: 290px;
+            color: #313133; /*color texto*/
+            font-family:  Arial;
+            font-weight:bolder;
+            font-size:130%
+}
+
+.Location2{
+            size-adjust: .9;
+            position:absolute;
+            top: 930px;
+            left: 290px;
+            color: #000057; /*color texto*/
+            font-family:  Arial;
+            font-weight:bolder;
+            font-size:130%
+}
+.Date{
+    size-adjust: .9;
+    position:absolute;
+    top: 905px;
+    left: 490px;
+    color: #313133; /*color texto*/
+    font-family:  Arial;
+    font-weight:bolder;
+    font-size:130%
+}
+.Date2{
+    size-adjust: .9;
+    position:absolute;
+    top: 930px;
+    left: 490px;
+    border:0;
+    background-color: #ddecf8;
+    font-weight:bold;
+}
+
+.Type{
+    size-adjust: .9;
+    position:absolute;
+    top: 905px;
+    left: 700px;
+    color: #313133; /*color texto*/
+    font-family:  Arial;
+    font-weight:bolder;
+    font-size:130%
+}
+
+.Type2{
+    size-adjust: .9;
+    position:absolute;
+    top: 930px;
+    left: 700px;
+    color: #000057; /*color texto*/
+    font-family:  Arial;
+    font-weight:bolder;
+    font-size:130%
+}
+
+.Submit {
+    position:absolute;
+    text-align: justify;
+    font-weight:700;
+    font-size: 110%;
+    top: 890px;
+    left: 950px;
+    /*border: 0px rgb(2, 77, 238)#ffffff; /*anchura, estilo y color borde*/
+    padding: 20px; /*espacio alrededor texto*/
+    background-color: #303deb; /*color botón*/
+    color: #fffffff6; /*color texto*/
+    border-radius: 5px; /*bordes redondos*/
+    /*text-transform: uppercase; /*capitalización texto*/
+    font-family: Arial;
+     }
+
+.Subtitle3 {
+        position:absolute;
+        text-align:left;
+        font-weight:850;
+        font-size: 250%;
+        top: 1250px;
+        left: 100px;
+        color: #191f75; /*color texto*/
+        font-family: Helvetica;
+        }
+
+.Parraf2 {
+        position:absolute;
+        text-align:left;
+        font-weight:150;
+        font-size: 130%;
+        top: 1350px;
+        left: 100px;
+        color: #58585c; /*color texto*/
+        font-family: Helvetica;
+        }
+
+.TextRec2{
+    size-adjust: .9;
+    position: absolute;
+    top: 1680px;
+    left: 105px;
+    text-align: left;
+    border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+    color: #191f75; /*color texto*/
+    font-family:  Helvetica;
+    font-weight:bolder;
+    font-size:160%
+}
+
+.ParrafRec2{
+    size-adjust: .9;
+    position: absolute;
+    top: 1750px;
+    left: 105px;
+    text-align: left;
+    border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+    color: #58585c; /*color texto*/
+    font-family:  Helvetica;
+    font-weight:lighter;
+    font-size:110%;
+}
+
+.TextRec3{
+    size-adjust: .9;
+    position: absolute;
+    top: 1680px;
+    left: 430px;
+    text-align: left;
+    border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+    color: #191f75; /*color texto*/
+    font-family:  Helvetica;
+    font-weight:bolder;
+    font-size:160%
+}
+
+.ParrafRec3{
+    size-adjust: .9;
+    position: absolute;
+    top: 1750px;
+    left: 430px;
+    text-align: left;
+    border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+    color: #58585c; /*color texto*/
+    font-family:  Helvetica;
+    font-weight:lighter;
+    font-size:110%;
+}
+
+.TextRec4{
+    size-adjust: .9;
+    position: absolute;
+    top: 1680px;
+    left: 750px;
+    text-align: left;
+    border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+    color: #191f75; /*color texto*/
+    font-family:  Helvetica;
+    font-weight:bolder;
+    font-size:160%
+}
+
+.ParrafRec4{
+    size-adjust: .9;
+    position: absolute;
+    top: 1750px;
+    left: 750px;
+    text-align: left;
+    border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+    color: #58585c; /*color texto*/
+    font-family:  Helvetica;
+    font-weight:lighter;
+    font-size:110%;
+}
+
+.TextRec5{
+    size-adjust: .9;
+    position: absolute;
+    top: 1680px;
+    left: 1070px;
+    text-align: left;
+    border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+    color: #191f75; /*color texto*/
+    font-family:  Helvetica;
+    font-weight:bolder;
+    font-size:160%
+}
+
+.ParrafRec5{
+    size-adjust: .9;
+    position: absolute;
+    top: 1750px;
+    left: 1070px;
+    text-align: left;
+    border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+    color: #58585c; /*color texto*/
+    font-family:  Helvetica;
+    font-weight:lighter;
+    font-size:110%;
+}
+
+.Subtitle4 {
+    position:absolute;
+    text-align:right;
+    font-weight:850;
+    font-size: 250%;
+    top: 2100px;
+    left: 600px;
+    color: #191f75; /*color texto*/
+    font-family: Helvetica;
+    }
+
+.Parraf4 {
+        position:absolute;
+        text-align:left;
+        font-weight:150;
+        font-size: 130%;
+        top: 2250px;
+        left: 600px;
+        color: #58585c; /*color texto*/
+        font-family: Helvetica;
+        }
+
+.Textpin1{
+        position: absolute;
+        top: 2470px;
+        left: 670px;
+        size-adjust: .9;
+        text-align: left;
+        border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+        color: #191f75; /*color texto*/
+        font-family:  Helvetica;
+        font-weight:bolder;
+        font-size:125%
+        }
+
+.Textpin2{
+    position: absolute;
+    top: 2570px;
+    left: 670px;
+    size-adjust: .9;
+    text-align: left;
+    border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+    color: #191f75; /*color texto*/
+    font-family:  Helvetica;
+    font-weight:bolder;
+    font-size:125%
+}
+
+.textstress{
+    position: absolute;
+    top: 2700px;
+    left: 700px;
+    font-weight:150;
+    font-size: 130%;
+    color: #58585c; /*color texto*/
+    font-family: Helvetica;
+}   
+
+.Textpin3{
+    position: absolute;
+    top: 2870px;
+    left: 670px;
+    size-adjust: .9;
+    text-align: left;
+    border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+    color: #191f75; /*color texto*/
+    font-family:  Helvetica;
+    font-weight:bolder;
+    font-size:125%
+    }
+
+.Textpin4{
+    position: absolute;
+    top: 2970px;
+    left: 670px;
+    size-adjust: .9;
+    text-align: left;
+    border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+    color: #191f75; /*color texto*/
+    font-family:  Helvetica;
+    font-weight:bolder;
+    font-size:125%
+    }
+
+.Textpin5{
+    position: absolute;
+    top: 3070px;
+    left: 670px;
+    size-adjust: .9;
+    text-align: left;
+    border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+    color: #191f75; /*color texto*/
+    font-family:  Helvetica;
+    font-weight:bolder;
+    font-size:125%
+    }
+
+.Subtitle5 {
+    position:absolute;
+    text-align:left;
+    font-weight:850;
+    font-size: 250%;
+    top: 3250px;
+    left: 100px;
+    color: #191f75; /*color texto*/
+    font-family: Helvetica;
+    }
+    
+.Parraf5 {
+    position:absolute;
+    text-align:left;
+    font-weight:150;
+    font-size: 130%;
+    top: 3350px;
+    left: 100px;
+    color: #58585c; /*color texto*/
+    font-family: Helvetica;
+    }
+
+.Call {
+        position:absolute;
+        text-align: center;
+        font-weight:700;
+        font-size: 130%;
+        top: 3700px;
+        left: 130px;
+        width: 190px; 
+        height: 80px;
+        border: 0px #ffffff; /*anchura, estilo y color borde*/
+        padding: 20px; /*espacio alrededor texto*/
+        background-color: #dde0ff; /*color botón*/
+        color: #0d01b6f6; /*color texto*/
+        border-radius: 5px; /*bordes redondos*/
+        font-family: Arial;
+         }
+.Chat {
+        position:absolute;
+        text-align: center;
+        font-weight:700;
+        font-size: 130%;
+        top: 3700px;
+        left: 430px;
+        width: 190px; 
+        height: 80px;
+        border: 0px #ffffff; /*anchura, estilo y color borde*/
+        padding: 20px; /*espacio alrededor texto*/
+        background-color: #dde0ff; /*color botón*/
+        color: #0d01b6f6; /*color texto*/
+        border-radius: 5px; /*bordes redondos*/
+        font-family: Arial;
+        }
+
+.VideoCall {
+        position:absolute;
+        text-align: center;
+        font-weight:700;
+        font-size: 130%;
+        top: 3950px;
+        left: 130px;
+        width: 190px; 
+        height: 80px;
+        border: 0px #ffffff; /*anchura, estilo y color borde*/
+        padding: 20px; /*espacio alrededor texto*/
+        background-color: #dde0ff; /*color botón*/
+        color: #0d01b6f6; /*color texto*/
+        border-radius: 5px; /*bordes redondos*/
+        font-family: Arial;
+        }
+        
+.Message {
+        position:absolute;
+        text-align: center;
+        font-weight:700;
+        font-size: 130%;
+        top: 3950px;
+        left: 430px;
+        width: 190px; 
+        height: 80px;
+        border: 0px #ffffff; /*anchura, estilo y color borde*/
+        padding: 20px; /*espacio alrededor texto*/
+        background-color: #dde0ff; /*color botón*/
+        color: #0d01b6f6; /*color texto*/
+        border-radius: 5px; /*bordes redondos*/
+        font-family: Arial;
+        }
+
+.TextCalls{
+    position: absolute;
+    size-adjust: .9;
+    text-align: left;
+    border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+    color: #191f75; /*color texto*/
+    font-family:  Helvetica;
+    font-weight:bolder;
+    font-size:130%
+    }
+
+.TextCalls2{
+        position: absolute;
+        size-adjust: .7;
+        text-align: left;
+        border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+        color: #4b4b4b; /*color texto*/
+        font-family:  Helvetica;
+        font-weight:bolder;
+        font-size:70%
+        }
+
+.Textpin6{
+    position: absolute;
+    top: 3620px;
+    left: 180px;
+}
+
+.Textpin6x{
+    position: absolute;
+    top: 3650px;
+    left: 180px;
+}
+
+.Textpin7{
+    position: absolute;
+    top: 3620px;
+    left: 480px;
+}
+
+.Textpin7x{
+    position: absolute;
+    top: 3650px;
+    left: 480px;
+}
+
+.Textpin8{
+    position: absolute;
+    top: 3870px;
+    left: 180px;
+}
+
+.Textpin8x{
+    position: absolute;
+    top: 3900px;
+    left: 180px;
+}
+
+.Textpin9{
+    position: absolute;
+    top: 3870px;
+    left: 480px;
+}
+
+.Textpin9x{
+    position: absolute;
+    top: 3900px;
+    left: 480px;
+}
+
+.TituloVac2{
+    text-align: left;
+    position:absolute;
+    color: #444cb8;
+    font-weight:900;
+    font-size:30px;
+    top: 50px;
+    left: 100px;
+    }
+
+.Textfooter{
+    position: absolute;
+    top: 130px;
+    left: 100px;
+    text-align: left;
+    border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+    color: #4b4b4b; /*color texto*/
+    font-family:  Helvetica;
+    font-weight:bolder;
+    font-size: 110%;
+    font-weight: lighter;
+    }
+
+.TextF{
+        text-align: center;
+        position:absolute;
+        color: #000057;
+        font-weight:500 px;
+        font-size:25px;
+        top: 55px;
+        left: 600px;
+        }   
+
+.TextF2{
+        text-align: center;
+        position:absolute;
+        color: #000057;
+        font-weight:500 px;
+        font-size:25px;
+        top: 55px;
+        left: 800px;
+        }  
+
+.TextF3{
+        text-align: center;
+        position:absolute;
+        color: #000057;
+        font-weight:500 px;
+        font-size:25px;
+        top: 55px;
+        left:1000px;
+        }          
+
+.Textf{
+    text-align: left;
+    color: #4b4b4b; /*color texto*/
+    font-family:  Helvetica;
+    font-size: 100%;
+    font-weight: lighter;
+    }
+
+.textf1{
+    position: absolute;
+    top: 4340px;
+    left: 600px;
+    }
+
+.textf2{
+    position: absolute;
+    top: 4380px;
+    left: 600px;
+    }
+
+.textf3{
+    position: absolute;
+    top: 4420px;
+    left: 600px;
+    }
+
+.textf4{
+    position: absolute;
+    top: 4340px;
+    left: 800px;
+    }
+
+.textf5{
+    position: absolute;
+    top: 4380px;
+    left: 800px;
+    }
+
+.textf6{
+    position: absolute;
+    top: 4420px;
+    left: 800px;
+    }    
+
+.textf7{
+    position: absolute;
+    top: 4340px;
+    left: 1000px;
+    }
+    
+.textf8{
+    position: absolute;
+    top: 4380px;
+    left: 1000px;
+    }
+    
+.textf9{
+    position: absolute;
+    top: 4420px;
+    left: 1000px;
+    } 
+
+.textf10{
+    position: absolute;
+    top: 4475px;
+    left: 100px;
+    } 
+
+.textf11{
+    position: absolute;
+    top: 4475px;
+    left: 900px;
+    }
+
+.textf12{
+    position: absolute;
+    top: 4475px;
+    left: 1100px;
+    } 
+        
